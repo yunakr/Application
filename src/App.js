@@ -4,12 +4,13 @@ import Home from './Home';
 
 const App = () => {
   return (
-    <Router>
+      <Router>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route exact path="" element=""/>
       </Routes>
     </Router>
+
   );
 };
 

@@ -1,21 +1,28 @@
 import React from 'react';
 import ActionBar from './Component/Actionbar';
+import Slide from './Component/Slide';
+import { View } from 'react-native';
 
-const Img = () => {
+
+const Component = () => {
     return (
-        <div>
-            <img src='img\imgBackground.jpg' className='' alt=''></img>
-        </div>
-    )
-}
+      <View className='h-[41.8rem]'>
+            <img src='img/imgBackground.jpg' className='w-[100%] h-full ' alt=''></img>
+      </View>
+    );
+  };
+
+
+
 
 const Home = () => {
     return (
         <div>
+            <Component/>
             <ActionBar />
-            <Img />
+            <Slide />
         </div>
     );
-  };
+};
   
-  export default Home;
+export default Home;
