@@ -1,0 +1,9 @@
+.carousel .control-dots {
+    position: absolute;
+    bottom: 12rem;
+    margin: 10px 0;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+    z-index: 1;
+}
