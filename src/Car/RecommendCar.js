@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
-import './RecommendCar.css'; 
+import './Recommend.css'; 
 
 const Recommend = () => {
   const [imageIndex, setImageIndex] = useState(0);
@@ -34,8 +34,8 @@ const Recommend = () => {
             showStatus={false}
         >
             {images.map((imageUrl, idx) => (
-            <div key={idx} className='h-[23.8rem]'>
-                <img src={imageUrl} alt={`Slide ${idx}`} className="mt-[-2.9rem] h-full object-contain" />
+            <div key={idx} className=' h-[23.8rem]'>
+                <img src={imageUrl} alt={`Slide ${idx}`} className="mt-[-2.9rem] h-full object-contain"/>
             </div>
             ))}
         </Carousel>

@@ -7,3 +7,7 @@
     width: 100%;
     z-index: 1;
 }
+
+.carousel.carousel-slider .control-arrow {
+    display: none;
+  }

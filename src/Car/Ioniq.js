@@ -26,15 +26,15 @@ const Ioniq6 = () => {
                 </div>
 
                 <p className='ml-[0.8rem] mt-8 font-extrabold text-[1rem]'>충전소&서비스 네트워크</p>
-                <p className='ml-[0.8rem] text-[#666] mt-2 font-semibold text-[0.8rem]'>고객님의 계신 곳 근처의 충전소 및</p>
-                <p className='ml-[0.8rem] text-[#666] mt-1 font-semibold text-[0.8rem]'>서비스 네트워크를 안내해드립니다.</p>
+                <p className='ml-[0.8rem] text-[#666] mt-2 font-semibold text-[0.77rem]'>고객님의 계신 곳 근처의 충전소 및</p>
+                <p className='ml-[0.8rem] text-[#666] mt-1 font-semibold text-[0.77rem]'>서비스 네트워크를 안내해드립니다.</p>
                 
                 <div>            
-                    <img src='img/ioniq_icon.jpg' className='ml-[17rem] mt-[-1.2rem] w-[8rem]' alt=''></img>
-                    <div className='flex ml-[0.8rem] mt-[-2rem] text-[0.8rem] font-extrabold text-[#002c5f]'>
+                    <img src='img/ioniq_icon.jpg' className='ml-[17rem] mt-[-0.7rem] w-[8rem]' alt=''></img>
+                    <div className='flex ml-[0.8rem] mt-[-1.2rem] text-[0.8rem] font-extrabold text-[#002c5f]'>
                     <button className='flex'><p>전기차</p><img src='img/nextBtn.png' className='w-[1rem] h-[1rem] ml-[0.2rem] mt-[0.1rem]' alt=''></img></button>
                         <div className='bg-[#666] border border-[#b4b4b4] ml-[1.4rem] mt-[0.3rem] h-[0.8rem]'></div>
-                        <button className='flex'><p className='ml-5'>수소전기차</p><img src='img/nextBtn.png' className='w-[1rem] h-[1rem] ml-[0.2rem] mt-[0.1rem]' alt=''></img></button>
+                        <p className='ml-5'> <button className='flex'>수소전기차</button></p><button><img src='img/nextBtn.png' className='w-[1rem] h-[1rem] ml-[0.2rem] mt-[0.1rem]' alt=''></img></button>
                     </div>
                 </div>
 

@@ -10,7 +10,7 @@ const ModelText = () => {
   };
   
   return (
-    <div className='h-[8.2rem]'>
+    <div className='h-[8.2rem]'style={{zIndex:2}}>
         <p className='flex justify-center mt-[4.4rem] font-extrabold text-[1.5rem]'>Model</p>
         <span className='flex justify-center mt-[1rem] font-extrabold text-[#666] text-[0.7rem]'>최근 한 달 동안 고객님들이 가장 많이 구매하신 모델입니다.</span>
     
@@ -36,9 +36,8 @@ const ModelText = () => {
             </button>
         </div>
     </div>
-  )
+  );
 }
-
 
 const Model = () => {
     return (

@@ -1,10 +1,12 @@
 import React from 'react';
+
 import ActionBar from '../Component/Actionbar';
 import Slide from '../Component/Slide';
 import Car from '../Car/Car';
 import Model from '../Model/Model';
 import Ioniq from '../Car/Ioniq';
-import Nav from '../Nav/Nav';
+import Nav from '../Nav/Nav'
+import RecommendCar from '../Car/RecommendCar';
 
 const Component = () => {
     return (
@@ -19,11 +21,12 @@ const Home = () => {
         <div>
             <Car />
             <Component/>
-            <ActionBar />
-            <Slide />
             <Model />
+            <RecommendCar />
+            <Slide />
             <Ioniq />
             <Nav />
+            <ActionBar />
         </div>
     );
 };

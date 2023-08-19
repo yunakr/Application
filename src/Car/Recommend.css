@@ -1,8 +1,13 @@
 .carousel2 .control-dots {
-    position: absolute;
     top: 21.9rem;
     padding: 0;
     text-align: center;
     width: 100%;
+    position: absolute;
     z-index: 1;
+
 }
+
+.carousel2.carousel-slider .control-arrow {
+    display: none;
+  }
