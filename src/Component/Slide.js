@@ -2,7 +2,7 @@ import React from 'react';
 
 const SlideBar = () => {
     return (
-        <div className='absolute bottom-[15.3rem] w-screen h-[11rem] left-[-0.5rem] overflow-x-auto'>
+        <div className='absolute bottom-[15.3rem] w-screen h-[11rem] left-[0rem] overflow-x-auto'>
 
             {/*1줄 슬라이더*/}
             <div className='flex h-[5.5rem] font-bold'>

@@ -10,7 +10,7 @@ const CarImgSlide = () => {
   const slideText = [
     { title: 'The all-new SANTA FE', subtitle: '일상과 일상 사이를 열다' },
     { title: 'The new AVANTE N', subtitle: 'Never just drive' },
-    { title: 'SONATA THE Edge', subtitle: '익숙함도 완전히 새롭게' },
+    { title: 'SONATA The Edge', subtitle: '익숙함도 완전히 새롭게' },
     { title: 'CASPER', subtitle: 'case by CASPER' },
     // Add more slide texts for each image as needed
   ];
@@ -20,12 +20,12 @@ const CarImgSlide = () => {
   }
 
   {/*타임어택 사진 변경*/}
-  
+
   useEffect(() => {
     const interval = setInterval(() => {
       const newIndex = (imageIndex + 1) % images.length;
       setImageIndex(newIndex);
-    }, 5000); 
+    }, 2900); 
     return () => clearInterval(interval);
   }, [imageIndex]);
 
@@ -58,5 +58,6 @@ const Car = () => {
     </div>
   );
 };
+
 
 export default Car;
